@@ -1,0 +1,115 @@
+    1  sudo apt-get install gnome-classic
+    2  sudo apt-get install gnome-session-fallback
+    3  python
+    4  mkdir python
+    5  cd python/
+    6  mkdir lesson1
+    7  cd ..
+    8  rename python/ pythonram
+    9  mv python/ pythonram
+   10  cd pythonram/
+   11  ls
+   12  cd lesson1/
+   13  ls
+   14  cd ..
+   15  ls
+   16  cd ..
+   17  ls
+   18  cd pythonram/
+   19  cd lesson1/
+   20  vim helloworld.py
+   21  nano helloworld.py
+   22  chmod a+x helloworld.py 
+   23  ./helloworld.py 
+   24  python
+   25  sudo apt-get update
+   26  cd vmware-tools-distrib/
+   27  ls
+   28  ./vmware-install.pl 
+   29  sudo ./vmware-install.pl 
+   30  sudo rebot
+   31  sudo reboot
+   32  sudo apt-get install curl
+   33  \curl -L https://get.rvm.io | bash -s stable
+   34  source ~/.rvm/scripts/rvm
+   35  rvm requirements
+   36  sudo rvm requirements
+   37  rvm requirements
+   38  rvm autolibs
+   39  rvm autolibs enable
+   40  rvm requirements
+   41  sudo apt-get --no-install-recommends install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev libgdbm-dev ncurses-dev automake libtool bison subversion pkg-config libffi-dev
+   42  rvm install ?
+   43  rvm install 1.9.3
+   44  rvm use 1.9.3 --default
+   45  rvm rubygems current
+   46  rvm use 1.9.3 --default
+   47  git --version
+   48  nano .gitignore 
+   49  git init
+   50  git add
+   51  git add .
+   52  git status
+   53  git commit -n Initial commit
+   54  git commit -m "Initial commit"
+   55  gitlog "Initial commit"
+   56  git log
+   57  git config --global user.name "r4mb0"
+   58  git config --global user.email ram@r4mbo.com
+   59  git remote add origin git@github.com:r4mb0/r4mborails.git
+   60  git push origin master
+   61  ssh -vT git@github.com
+   62  ssh-add -l
+   63  cd ~/.ssh
+   64  ls
+   65  clip < ~/.ssh/id_rsa.pub
+   66  ssh-keygen -t rsa -C "ram@r4mbo.com"
+   67  clip < ~/.ssh/id_rsa.pub
+   68  sudo apt-get install geomview
+   69  clip < ~/.ssh/id_rsa.pub
+   70  clip < ~/.ssh/id_rsa.pub 
+   71  clip ~/.ssh/id_rsa.pub 
+   72  clip -e ~/.ssh/id_rsa.pub 
+   73  cat ~/.ssh/id_rsa.pub 
+   74  ssh -vT git@github.com
+   75  git push origin master
+   76  cd ~/
+   77  ls
+   78  pwd
+   79  cd railsram/
+   80  cd firstapp/
+   81  ls
+   82  git push origin master
+   83  git pull origin master
+   84  git push origin master
+   85  git init
+   86  git status
+   87  ls
+   88  git status
+   89  git log
+   90  nano ~/.bashrc 
+   91  git checkout -b modify-README
+   92  pwd
+   93  git status
+   94  git branch
+   95  less ~/.bashrc 
+   96  less ~/.bashrc 
+   97  ls ~/git*
+   98  ls
+   99  mate
+  100  nano README.md
+  101  nano README.md
+  102  git commit -am "Improved README"
+  103  git checkout master 
+  104  git merge modify-README 
+  105  git status
+  106  git push origin master 
+  107  gem install heroku
+  108  heroku keys:add
+  109  heroku create
+  110  nano .git/config 
+  111  git puh heroku
+  112  git push heroku
+  113  git push heroku master
+  114  history
+  115  history > rubyhistorycommands
